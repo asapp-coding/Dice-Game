@@ -21,7 +21,7 @@ let img2 = document.querySelector(".img2");
 let heading = document.querySelector("#heading");
 
 function changeDice(){
-    let imgNames = ['/images/dice1.png', '/images/dice2.png', '/images/dice3.png', '/images/dice4.png', '/images/dice5.png', '/images/dice6.png'];
+    let imgNames = ['images/dice1.png', 'images/dice2.png', 'images/dice3.png', 'images/dice4.png', 'images/dice5.png', 'images/dice6.png'];
     let randomImg = Math.floor(Math.random() * 6); //numbers from 0 to 5
     let randomImg2 = Math.floor(Math.random() * 6);
     //Changing the value of image attribute src
